@@ -1,0 +1,21 @@
+{
+  "name": "m4a3",
+  "version": "1.0.0",
+  "description": "Learning node, express and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Vaibhav Solanki",
+  "license": "SEE LICENSE IN M4Assign2",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^7.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^6.12.0",
+    "morgan": "^1.10.0"
+  }
+}

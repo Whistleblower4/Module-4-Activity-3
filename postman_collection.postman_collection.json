@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "03c425d5-ad76-49ac-ac7f-e7c71deb7068",
+		"name": "postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29975583"
+	},
+	"item": [
+		{
+			"name": "adding loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": 1,\r\n    \"customerName\": \"Vaibhav\",\r\n    \"phoneNumber\": 6028154582,\r\n    \"address\": \"tempe\",\r\n    \"loanAmount\": 38564,\r\n    \"interest\": 2,\r\n    \"loanTermYears\": 2,\r\n    \"loanType\": \"Educational Loan\",\r\n    \"description\": \"Loan for Education\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/loan/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"loan",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding 2nd loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": 2,\r\n    \"customerName\": \"Millie\",\r\n    \"phoneNumber\": 1122334455,\r\n    \"address\": \"tempe\",\r\n    \"loanAmount\": 4356,\r\n    \"interest\": 2,\r\n    \"loanTermYears\": 2,\r\n    \"loanType\": \"Personal Loan\",\r\n    \"description\": \"Loan for Personal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/loan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"loan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding 3rd loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": 3,\r\n    \"customerName\": \"bobbie\",\r\n    \"phoneNumber\": 6655443322,\r\n    \"address\": \"tempe\",\r\n    \"loanAmount\": 356,\r\n    \"interest\": 2,\r\n    \"loanTermYears\": 2,\r\n    \"loanType\": \"Personal Loan\",\r\n    \"description\": \"Loan for Personal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/loan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"loan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding 4th loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": 4,\r\n    \"customerName\": \"Jax\",\r\n    \"phoneNumber\": 2424532452,\r\n    \"address\": \"tempe\",\r\n    \"loanAmount\": 3546,\r\n    \"interest\": 2,\r\n    \"loanTermYears\": 2,\r\n    \"loanType\": \"Classes\",\r\n    \"description\": \"Loan for Classes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/loan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"loan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding 5th loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": 5,\r\n    \"customerName\": \"Maxxie\",\r\n    \"phoneNumber\": 2443897560,\r\n    \"address\": \"Houston\",\r\n    \"loanAmount\": 34476,\r\n    \"interest\": 2,\r\n    \"loanTermYears\": 2,\r\n    \"loanType\": \"Business\",\r\n    \"description\": \"Loan for Business\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/loan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"loan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding 6th loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": 6,\r\n    \"customerName\": \"Marie\",\r\n    \"phoneNumber\": 8237465956,\r\n    \"address\": \"New Mexico\",\r\n    \"loanAmount\": 34476,\r\n    \"interest\": 2,\r\n    \"loanTermYears\": 2,\r\n    \"loanType\": \"Business\",\r\n    \"description\": \"Loan for Business\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/loan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"loan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleting a user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Checking if a user is deleted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/loan/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"loan",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
